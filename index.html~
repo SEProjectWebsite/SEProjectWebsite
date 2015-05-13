@@ -19,8 +19,8 @@
     </div> 
     <div class="neighborhood-guides">
         <div class="container">
-            <h2>Authors:</h2>
-            <p><a href = "https://www.linkedin.com/profile/view?id=210009351">Yunsong Wu</a> (Product Manager & Developer), Email: yunsongwu90@gmail.com<br>
+            <h2>Team Members:</h2>
+            <p><a href = "https://www.linkedin.com/in/yunsongwu">Yunsong Wu</a> (Product Manager & Developer), Email: yunsongwu90@gmail.com<br>
 				 <a href = "http://www.weiqiao.info">Wei Qiao</a> (Scrum Master & Developer), Email: qiaowei8993@gmail.com<br>
 				 <a href = "http://www.linkedin.com/in/alanfan/">Jun Fan</a> (Developer), Email: zhazheyu@gmail.com<br>
 				<a href = "https://www.linkedin.com/profile/view?id=104878377">Zheyu Zha</a> (Developer), Email: alanfan0919@gmail.com<br>
@@ -31,43 +31,100 @@
 	<div class="neighborhood-guides">
         <div class="container">
             <h2>Introduction:</h2>
+            <p>Lynx Toys LLC is a student-run startup founded by Startup Aggieland. They wanted a community website for the customers to upload and share their creations of photos. Our team helped them build this community website. This website has the following features:</p>
+			<ul>
+            <li>Customers can upload their own creations.</li>
+            <li>Customers can upvote a creation in creation page.</li>
+            <li> Customers can share a creation to different social networks.</li>
+            <li>A creation needs admin's approval before they can be published in the website.</li>
+            <li>The website can be accessed by mobile device.</li>
+            <li>The creations can be sorted according to created time or number of upvotes.</li>
+			<ul>
+            <h4> See the following video to know more.</h4>
+            
             <iframe width="630" height="517"
 			src="http://www.youtube.com/embed/VwlmXIO2ft4">
 			</iframe>
-
+            
     </div>
 	<div class="neighborhood-guides">
         <div class="container">
-            <h2>Design and Develope Diagram:</h2>
-            
+            <h2>Design and Develop Diagram:</h2>
+			<h4 style = "padding: 20px"> The backend design is shown as follow.</h4>
+            <img src="design_graph.png" >
+			<h3><br>Agile Development is exploited.</h3>
+			<p>One iteration per week with one stable released version.<p>
+			<h4>Iteration 0:</h4>
+			<ul>
+				<li>Created main page;</li>      
+				<li>Created Ruby on Rails framework.</li> 
+			</ul>
+			<h4>Iteration 1:</h4>
+			<ul>
+				<li>Realized creating creation and uploading images.</li>
+				<li>Designed database schema.</li>
+				<li>Designed and developed showing page, uploading page.</li>
+				<li>Multiple images can be uploaded in the same time; </li>
+				<li>Cucumber and Rspec were used to test website.</li>
+			</ul>
+			<h4>Iteration 2:</h4>
+			<ul>
+				<li>Modified the styles and layouts of webpages.</li>
+				<li>Embedded google recaptcha into the website to filter robots.</li>
+				<li>Tested uploading image using cucumeber.</li>
+				<li>Realized the  function and the webpage to manage the uploaded creations.</li>
+				<li>Added cover image and modified the database schema.</li>
+				<li>Designed and developed the view page for creating creation and uploading pictures.</li>
+				<li>Rspec were used to test website.</li>
+			</ul>
+			<h4>Iteration 3:</h4>
+			<ul>
+				<li>Realized email notification to administrator when creating new creation.</li>
+				<li>Added the feature of upvoting (each IP can only upvote once for one creation).</li>
+				<li>Added the feature by which we can sort the creations.</li>
+				<li>Added the feature to share creation to social networks.</li>
+			</ul>
+			<h4>Iteration 4:</h4>
+			<ul>
+				<li>Changed the field names and the restriction of uploading.</li>
+				<li>Added feature to send emain to notice user about the status of the creations.</li>
+				<li>Used fancybox to show images in a separate window with previews.</li>
+				<li>Changed the styles of showing images.</li>
+			</ul>
     </div>
 	<div class="neighborhood-guides">
         <div class="container">
             <h2>Technologies we used:</h2>
-            <p>Not sure where to stay?</h2>
+            <p>Those were what we used in our project.</h2>
             <div class="row">
             
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img src="http://goo.gl/0sX3jq" >
+                        <img src="ruby-logo-512.png"  width="197" height="256">
                     </div>
                     <div class="thumbnail">
-                        <img src="http://goo.gl/an2HXY" >
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://goo.gl/Av1pac" >
-                    </div>
-                    <div class="thumbnail">
-                        <img src="http://goo.gl/vw43v1" >
+                        <img src="html-css.png" width="197" height="143"  >
                     </div>
                 </div>
                 
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img src="http://goo.gl/0Kd7UO" >
+                        <img src="Ruby_on_Rails.svg.png"  width="190" height="256" >
+                    </div>
+                    <div class="thumbnail">
+                        <img src="Pivotal-Tracker-Stacked.png" width="197" height="143" >
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="JavaScript.jpeg"  width="197" height="256">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="heroku-Logo-1.jpg" width="197" height="143"  >
+                    </div>
+					<div class="thumbnail">
+                        <img src="cucumber.PNG" width="197" height="143"  >
                     </div>
                 </div>
         </div>
