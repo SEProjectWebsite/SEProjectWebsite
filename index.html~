@@ -13,9 +13,8 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h1>We are on the way to our dream.</h1>
-        <p>This is our first step.</p>
-        <a href="#">Learn More</a>
+        <h1>LynxToys Website Project</h1>
+        <p>This is our project for LynxToys LLC.</p>
       </div>
     </div> 
     <div class="neighborhood-guides">
@@ -50,8 +49,7 @@
             
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        
-						<p> Ruby on Rails<img src="http://goo.gl/0sX3jq" ></p>
+                        <img src="http://goo.gl/0sX3jq" >
                     </div>
                     <div class="thumbnail">
                         <img src="http://goo.gl/an2HXY" >
