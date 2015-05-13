@@ -50,7 +50,8 @@
             
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img src="http://goo.gl/0sX3jq" >
+                        
+						<p> Ruby on Rails<img src="http://goo.gl/0sX3jq" ></p>
                     </div>
                     <div class="thumbnail">
                         <img src="http://goo.gl/an2HXY" >
