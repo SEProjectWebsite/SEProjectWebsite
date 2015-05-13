@@ -1,5 +1,4 @@
-# Project 1: Movie Trailer Website
-=============================
+# SEProjectWebsite
 
 This is the code for the study of the "Full Stack Web Developer Nanodegree" on Udacity.
 
