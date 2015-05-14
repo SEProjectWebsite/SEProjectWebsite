@@ -11,8 +11,8 @@
 }
 
 .jumbotron {
-  background-image:url('logo/lynxtoys2.PNG');
-  height: 280px;
+  background-image:url('');
+  height: 150px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,14 +54,21 @@
 }
 .neighborhood-guides h2{
     color:#393c3d;
-    font-size:24px;
+    font-size:48px;
 }
 .neighborhood-guides p{
-    font-size:15px;
+    font-size:24px;
     margin-bottom:13px;
 }
 .neighborhood-guides h3{
-    font-size:17px;
+    font-size:40px;
     margin-bottom:13px;
 }
-
+.neighborhood-guides h4{
+    font-size:32px;
+    margin-bottom:13px;
+}
+.neighborhood-guides li{
+    font-size:24px;
+    margin-bottom:13px;
+}
