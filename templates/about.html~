@@ -1,0 +1,43 @@
+    
+{% extends "index.html" %}
+{% block content %}
+  <article>
+  <h3>Who is me？</h3>
+<pre>
+
+#include "PhD_quit.h"
+#include "Master.h"
+#include "SoftwareEngineer.h"
+
+class person{
+  private:
+    string name_ = "Wei Qiao";
+    int age_ = 25;
+    string major_ = "Electrical Engineering ( took many CS courses)";
+    string skills_ = "C++, Python, Ruby, Matlab, Database, Flask, Ruby on Rails, Linux, Heroku, etc";
+    string interests_ = "Software Engineering, Web Development, Image/Signal Processing, Machine Learning";
+    string email_ = "qiaowei8993 AT gmail.com";
+    string Phone_ = "9795874936";		
+
+  public:
+	bool isLookingForAJob();
+  	bool awaredWithNationalScholarship();
+};
+
+int main(int argc, char* args) {
+	Person me;
+	me.isLookingForAJob();
+	return 0;
+}
+</pre>
+
+
+
+<br>
+<h3>Would you like to know more about me？</h3>
+<p>My <strong>RESUME</strong> is here: <a href="/resume">resume(click me)</a>.</p>
+
+<p>I did a lot of <strong>projects</strong>: <a href="/project">project(click me)</a>.</p>
+
+</article>
+{% endblock %}

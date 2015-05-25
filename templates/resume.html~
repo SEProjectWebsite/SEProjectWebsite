@@ -1,0 +1,97 @@
+    
+{% extends "index.html" %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+<style>
+	.h3 {
+		font-size: 20px;
+		padding: 6px;
+		font-weight: bold;
+	}
+	.p1 {
+		text-indent: 50px;
+		font-size: 16px;
+		padding: 3px;
+		font-weight: bold;
+	}
+	.p2 {
+		text-indent: 80px;
+		font-size: 14px;
+		padding: 3px;
+	}
+	.p_center {
+		text-align:center;
+		font-size: 14px;
+	}
+</style>
+    <!-- Education -->
+<article>
+	<h1 style="text-align:center">Resume- Wei Qiao <a href = "{{ url_for('static', filename='Resume-Wei Qiao-TAMU.pdf') }}"><font style = "font-size:24px">PDF</font></a></h1>
+	<div class = "p_center">Phone: +1- 9795874936&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEmail: qiaowei8993 AT gmail.com</div>
+</article>
+<div class="grid_9" id="rss-updates">
+    <article class="row-fluid">
+        <div class = "h3">Education</div>
+	    <div class = "p1" >Master in Electrical Engineering, Texas A&M University, College Station, TX. ( Dec. 2015 expected);</div>
+	    <div class = "p2">PhD quit; Would like to work in industrial area.</div>
+		<div class = "p1">Master in Information Science, University of Science and Technology of China, Hefei, China, (June 2013);</div>
+		<div class = "p2">Top 10%, Awarded with National Scholarship.</div>
+	    <div class = "p1">Bachelor in Communication Engineering, Hefei University of Technology, Hefei, China. (June 2010)</div>
+    </article>
+    <!-- Work Experience -->
+    <article class="row-fluid">
+        <div class = "h3">Experience</div>
+		<div class = "p1" ><font style = "color:#3A3394;">Software Engineer (Intern)</font>, Netease Games, June 2014 - August 2014.</div>
+		<div class = "p1" ><font style = "color:#3A3394;">Research Assistant</font> in ECE Department, Texas A&M University, Sept. 2013 - Dec. 2013.</div>
+		<div class = "p1" ><font style = "color:#3A3394;">Research Assistant</font> in Media & Comm. Research Lab. Univ. of Sci. and Tech. of China, Sept. 2010 - June 2013.</div>
+    </article>
+    <!-- Skills -->
+    <article class="row-fluid">
+        <div class = "h3">Skills</div>
+		<div class = "p1" style = "color:#3A3394;">Programming</div>
+         <div class = "p2">Python, C/C++, Mysql, Matlab, Ruby, Java, Prolog, PDDL</div>
+		 <div class = "p1" style = "color:#3A3394;">Operating Systems</div>
+         <div class = "p2">Linux/Ubuntu</div>
+        <div class = "p1" style = "color:#3A3394;">Development Tools, Framworks and Softwares</div>
+          <div class = "p2"><strong> Vim, Github, Django, Heroku</strong></div>
+          <div class = "p1" style = "color:#3A3394;">Langueges</div>
+          <div class = "p2">English - Professional working proficiency</div>
+          <div class = "p2">Chinese - Native</div>
+    </article>
+	<!-- Project -->
+    <article class="row-fluid">
+		<div class = "h3">Projects</div>
+		<div class = "p2">Click <a href="/project">Project</a> to see my projects.</strong></div>
+    </article>
+    <!-- Social -->
+    <article class="row-fluid">
+        <header class="span3">
+            <h3>Social Works</h3>
+        </header>
+        <div class="span9">
+            <li>....</li>
+        </div>
+    </article>
+    <!-- Hornors -->
+    <article class="row-fluid">
+		<style>
+		.p2 {
+			text-indent: 50px;
+			font-size: 14px;
+			padding: 3px;
+		}
+		</style>
+        <div class = "h3">Hornors</div>
+        <div class="span9">
+            <div class = "p2"><strong>National Scholarship for Graduate</strong>, Ministry of Education of P. R. China, 2012</div>
+            <div class = "p2"><strong>Huawei scholarship</strong>, Huawei Technologies Co. Ltd, China, 2012</div>
+            <div class = "p2"><strong>The 3rd prize</strong>, The 8th National Graduate Mathematical Contest in Modeling, 2011</div>
+            <div class = "p2"><strong>The 3rd prize</strong>, The 7th National Graduate Mathematical Contest in Modeling, 2010</div>
+            <div class = "p2"><strong>Excellent volunteer</strong>, The 8th China Conference on Information and Communications Security(CCICS 2011)</li>
+            <div class = "p2"><strong>The 2nd prize</strong>, The 5th USTC Business Simulation Compete, USTC, 2012</div>
+            <div class = "p2"><strong>Excellent Class Leader</strong>, Hefei University of Technology, 2007</div>
+            <div class = "p2"><strong>Excellent League Member</strong>, Hefei University of Technology, 2007</div>
+            <div class = "p2"><strong>Prize for Social Work</strong>, Hefei University of Technology, 2007</div>
+    </article>
+
+{% endblock %}

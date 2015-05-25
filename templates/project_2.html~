@@ -1,0 +1,27 @@
+
+{% extends "index.html" %}
+{% block content %}
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+	<p><a href="/project/">Return to project page!</a></p>
+	<div class="jumbotron">
+      <div class="container">
+		<h1>GUI tool for Airtest</h1>
+		<p> This was part of my .</p>
+		</div>
+    </div>
+	<div class="neighborhood-guides">
+        <div class="container">
+			<h2>Introduction:</h2>
+			<p>I  this project </p>
+		</div>
+	</div>
+	<div class="neighborhood-guides">
+        <div class="container">
+			<img src="{{ url_for('static', filename='Airkuli1.png') }}"  width="1024" alt="" class="responsive"/>
+			<img src="{{ url_for('static', filename='Airkuli2.png') }}" alt="" class="responsive"/>
+		</div>
+	</div>
+	 
+	
+	<p><a href="/project/">Return to project page!</a></p>
+{% endblock %}

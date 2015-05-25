@@ -1,0 +1,12 @@
+    
+{% extends "index.html" %}
+{% block content %}
+	<br><br>
+	<h1>Welcom to my project page:</h1>
+	<h3>Click the title to see the details.</h3>
+	{% for project in projects %}
+  		<h2 ><a style = "color: #6699CC" href="/project/{{ project.id }}">{{ project.id }}.&nbsp{{project.name}}</a></h2>
+		<p style = "text-indent: 50px;">{{project.description}}</p>
+	{% endfor %}
+	<br><br>
+{% endblock %}
